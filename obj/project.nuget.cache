@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Yih68vuBjqGtfPpldc9h0FlGlv5ioPdmgPcIuZU0J7KTSK0QAeV5Ok3sg5Wvt1s9+ybZ/kz8P2DFHAziRENFw==",
+  "success": true,
+  "projectFilePath": "/home/greg/SyncThing/Personal/Projects/OS/WebDocker/ComplexWeb/ComplexWeb.csproj",
+  "expectedPackageFiles": [
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.0.1/microsoft.netcore.platforms.1.0.1.nupkg.sha512",
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.targets/1.0.1/microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.io/4.1.0/system.io.4.1.0.nupkg.sha512",
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.net.primitives/4.0.11/system.net.primitives.4.0.11.nupkg.sha512",
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.net.sockets/4.1.0/system.net.sockets.4.1.0.nupkg.sha512",
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.runtime/4.1.0/system.runtime.4.1.0.nupkg.sha512",
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.runtime.handles/4.0.1/system.runtime.handles.4.0.1.nupkg.sha512",
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.text.encoding/4.0.11/system.text.encoding.4.0.11.nupkg.sha512",
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.threading.tasks/4.0.11/system.threading.tasks.4.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

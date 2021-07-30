@@ -1,0 +1,49 @@
+@page
+@model ShowcaseModel
+@{
+    ViewData["Title"] = "Showcase";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Here is a webpage provided by ASP.NET Core, which is running inside a docker container, which is running in an ubuntu VM, which is running on OpenStack, which is installed on Ubuntu, which is installed onto a Software RAID 1 Configuration. <i>Phew!</i></p>
+
+<hr>
+
+<form method="post">
+    <fieldset>
+        <legend>Remote sound maker</legend>
+        <div>
+            <label for="SoundName">Sound Name</label>
+            <input type="text" name="SoundName" value="Ping">
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            <input type="submit" value="Make a sound!" class="submit" />
+        </div>
+    </fieldset>
+</form>
+
+<hr>
+
+<div>
+    <div>
+        <h2>
+            Connection status
+        </h2>
+    </div>
+    <div>
+        @if ( @Model.p_isConnected )
+        {
+            <h3 style="color:#009933;">
+                Connected
+            </h3>
+        }
+        else
+        {
+            <h3 style="color:#800000;">
+                Disconnected
+            </h3>
+        }
+        
+    </div>
+</div>
