@@ -53,7 +53,7 @@ namespace ComplexWeb
         static private bool s_stillConnected = false;
 
         // A buffer for sending commands to the client
-        static private string s_stringToSend;
+        static private string s_stringToSend = "";
         
         // Sends a message to the client
         public static void SendMessageToClient( string l_msg )
