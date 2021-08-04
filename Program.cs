@@ -117,6 +117,9 @@ namespace ComplexWeb
                     NetworkStream l_stream = s_client.GetStream();
                     byte[] l_bytesToSend = System.Text.Encoding.ASCII.GetBytes( s_stringToSend );
                     s_client.Client.Send( l_bytesToSend );
+
+                    // Reset so there is no machine gun sounds
+                    s_stringToSend = "";
                 }
 
                 // Suspend this whole thread for 50ms
