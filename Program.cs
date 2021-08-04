@@ -51,7 +51,17 @@ namespace ComplexWeb
 
         // Used for checking disconnect
         static private bool s_stillConnected = false;
+
+        // A buffer for sending commands to the client
+        static private string s_stringToSend;
         
+        // Sends a message to the client
+        public static void SendMessageToClient( string l_msg )
+        {
+            // Append it on the end to the string to send
+            s_stringToSend += l_msg;
+        }
+
         public static void StartListenAsync()
         {
             // Listening on TCP port 8888
@@ -99,6 +109,14 @@ namespace ComplexWeb
 
                     // For now, just write whatever it is to console
                     Console.Write( l_str );
+                }
+
+                if( s_stringToSend != "" )
+                {
+                    // Once connected send "I have connected"
+                    NetworkStream l_stream = s_client.GetStream();
+                    byte[] l_bytesToSend = System.Text.Encoding.ASCII.GetBytes( s_stringToSend );
+                    s_client.Client.Send( l_bytesToSend );
                 }
 
                 // Suspend this whole thread for 50ms
