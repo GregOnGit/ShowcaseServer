@@ -27,7 +27,14 @@ namespace ComplexWeb.Pages
 
         public void OnPost()
         {
-            System.Diagnostics.Debug.WriteLine( "POST USED" );
+            if( p_isConnected )
+            {
+                AppConnect.SendMessageToClient( "p" );
+            }
+            else
+            {
+                System.Diagnostics.Debug.WriteLine( "NOT CONNECTED" );
+            }
         }
 
         public void OnPostSounder( string l_soundName )
