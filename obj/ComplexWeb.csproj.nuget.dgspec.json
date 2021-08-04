@@ -41,6 +41,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.4, )"
+            },
             "System.Net.Sockets": {
               "target": "Package",
               "version": "[4.1.0, )"

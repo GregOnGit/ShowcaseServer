@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Docker.DotNet/3.125.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Buffers": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Docker.DotNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Docker.DotNet.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.0.1": {
         "type": "package",
         "compile": {
@@ -18,6 +31,24 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.IO/4.1.0": {
@@ -105,6 +136,21 @@
     }
   },
   "libraries": {
+    "Docker.DotNet/3.125.4": {
+      "sha512": "qStC9eSTewp/ySdN484fWhe9ZJZxuQtLRCMHnBH4GLbSS94A46n5OZp7nmRbe65iXjL4pIgfC7jiHhrEziCg9A==",
+      "type": "package",
+      "path": "docker.dotnet/3.125.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "docker.dotnet.3.125.4.nupkg.sha512",
+        "docker.dotnet.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Docker.DotNet.dll",
+        "lib/netstandard2.0/Docker.DotNet.pdb"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.0.1": {
       "sha512": "2G6OjjJzwBfNOO8myRV/nFrbTw5iA+DEm0N+qUqhrOmaVtn4pC77h38I1jsXGw5VH55+dPfQsqHD0We9sCl9FQ==",
       "type": "package",
@@ -132,6 +178,68 @@
         "microsoft.netcore.targets.1.0.1.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "type": "package",
+      "path": "system.buffers/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.IO/4.1.0": {
@@ -594,6 +702,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Docker.DotNet >= 3.125.4",
       "System.Net.Sockets >= 4.1.0"
     ]
   },
@@ -638,6 +747,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Docker.DotNet": {
+            "target": "Package",
+            "version": "[3.125.4, )"
+          },
           "System.Net.Sockets": {
             "target": "Package",
             "version": "[4.1.0, )"

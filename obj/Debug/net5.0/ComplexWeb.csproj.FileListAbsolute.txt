@@ -39,3 +39,5 @@
 /home/greg/SyncThing/Personal/Projects/OS/WebDocker/ComplexWeb/obj/Debug/net5.0/ComplexWeb.genruntimeconfig.cache
 /home/greg/SyncThing/Personal/Projects/OS/WebDocker/ComplexWeb/obj/Debug/net5.0/ComplexWeb.csproj.CopyComplete
 /home/greg/SyncThing/Personal/Projects/OS/WebDocker/ComplexWeb/obj/Debug/net5.0/Razor/Pages/Showcase.cshtml.g.cs
+/home/greg/SyncThing/Personal/Projects/OS/WebDocker/ComplexWeb/bin/Debug/net5.0/Docker.DotNet.dll
+/home/greg/SyncThing/Personal/Projects/OS/WebDocker/ComplexWeb/bin/Debug/net5.0/Newtonsoft.Json.dll

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "5Yih68vuBjqGtfPpldc9h0FlGlv5ioPdmgPcIuZU0J7KTSK0QAeV5Ok3sg5Wvt1s9+ybZ/kz8P2DFHAziRENFw==",
+  "dgSpecHash": "J/abOLmMdUSmQloSYswf5ROuTJ2T5lsGC9h49YV+dge7SEU6CCb1O+iaftqmPmy6G8ydKYGkrfuiH5d+3kGwdw==",
   "success": true,
   "projectFilePath": "/home/greg/SyncThing/Personal/Projects/OS/WebDocker/ComplexWeb/ComplexWeb.csproj",
   "expectedPackageFiles": [
+    "/home/greg/.nuget/packages/docker.dotnet/3.125.4/docker.dotnet.3.125.4.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.0.1/microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.targets/1.0.1/microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "/home/greg/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/home/greg/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.io/4.1.0/system.io.4.1.0.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.net.primitives/4.0.11/system.net.primitives.4.0.11.nupkg.sha512",
     "/usr/share/dotnet/sdk/NuGetFallbackFolder/system.net.sockets/4.1.0/system.net.sockets.4.1.0.nupkg.sha512",
